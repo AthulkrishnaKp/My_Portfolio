@@ -321,10 +321,11 @@ p {
 	background-image: url(./img/me.jpg);
 	background-size: cover;
 	margin: 10px 5%;
-	height: 400px;
+	min-height: 500px;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+	
 }
 #services .service-item::after {
 	content: '';
@@ -336,6 +337,7 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: 0.9;
 	z-index: -1;
+	
 }
 #services .service-bottom .icon {
 	height: 80px;
